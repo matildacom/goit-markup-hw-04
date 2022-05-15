@@ -209,6 +209,15 @@ ul{
     color:var(--main-text-color);
     margin-bottom: 10px;
 }
+.features-link{
+    width: 270px;
+    height:120px;
+    display: block;
+    background-position: center;
+    background-color: var(--main-background-color);
+ 
+
+}
 
 /*work*/
 .work {
@@ -244,7 +253,6 @@ ul{
 }
 .team-list{
     display: flex;
-   
 }
 .team-item{
     background-color: var(--secondary-background-color);
@@ -286,22 +294,33 @@ ul{
     background-color: var(--secondary-background-color);
     border-radius: 50%;
 }
+.social-link:hover{   
+    background-color: var(--accent);
+fill: var(--secondary-background-color);
+}
+.social-link:focus{
+    background-color: var(--accent);
+    fill: var(--secondary-background-color);
+}
 .social-list{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
 .social-item:not(:last-child){
 margin-right: 10px;
 }
 /*footer*/
 
-.footer {
+.footer{
+   
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--additional-color);
     border-radius: 0;
-}
+  }
+  
 .logo-footer{
     margin:0px 93px 0px 0px;
     padding: 24px 0px;
@@ -354,6 +373,23 @@ margin-bottom: 0;
 .tel:hover,
 .mail:focus{
     color: var(--accent);
+}
+.social-box{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.join{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+    letter-spacing: 00.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+    
 }
 
 /*portfolio*/
