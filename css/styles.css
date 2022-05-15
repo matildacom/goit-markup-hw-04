@@ -226,13 +226,12 @@ fill: var(--accent);
 .features-link{
     width: 270px;
     height:120px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-position: 50% 50%;
-    background-color: var(--main-background-color);
-   
+    background-color: var(--main-background-color)
 }
-
-
 /*work*/
 .work {
     background-color: var(--text-color);
@@ -439,9 +438,23 @@ margin-bottom: 0;
     letter-spacing: 00.03em;
     text-transform: uppercase;
     color: var(--text-color);
-    
 }
-
+.social-link-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: var(--text-color);
+        width: 44px;
+        height: 44px;
+        background-color:rgba(255, 255, 255, 0.1) ;
+        border-radius: 50%;
+}
+.social-link-footer:hover{
+    background-color: var(--accent);
+}
+.social-link-footer:focus{
+    background-color: var(--accent);
+}
 /*portfolio*/
 .portfolio{
     padding-top: 94px;
