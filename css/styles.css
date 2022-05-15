@@ -7,6 +7,7 @@
     --secondary-background-color:#FFFFFF;
     --additional-color:#2F303A;
     --border-color:#ECECEC;
+    --main-border-color: #AFB1B8;
     --secondary-border-color:#EEEEEE;
 }
 .page{
@@ -114,14 +115,13 @@ ul{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: block;
+    align-items: center;
+    display: flex;
 }
 .link-contacts-mail:hover,
 .link-contacts-mail:focus{
     color:var(--accent);
 }
-
-
 .link-contacts-tel {
     font-weight: 500;
     font-size: 14px;
@@ -131,7 +131,8 @@ ul{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: block;
+    align-items: center;
+    display: flex;
 }
 .link-contacts-tel:hover,
 .link-contacts-tel:focus{
@@ -140,7 +141,20 @@ ul{
 .item-contacts-mail{
     margin-right: 50px;
 }
-
+.mail-icon{
+fill: var(--secondary-text-color);
+margin-right: 10px;
+}
+.phone-icon{
+fill: var(--secondary-text-color);
+margin-right: 10px;
+}
+.mail-icon:hover{
+fill: var(--accent);
+}
+.phone-icon:hover{
+fill: var(--accent);
+}
 /*hero styles*/
 .hero {
     background-color: var(--additional-color);
@@ -213,11 +227,11 @@ ul{
     width: 270px;
     height:120px;
     display: block;
-    background-position: center;
+    background-position: 50% 50%;
     background-color: var(--main-background-color);
- 
-
+   
 }
+
 
 /*work*/
 .work {
@@ -311,6 +325,42 @@ fill: var(--secondary-background-color);
 .social-item:not(:last-child){
 margin-right: 10px;
 }
+/*clients*/
+
+.clients{
+display:flex;
+}
+.clients-item{
+margin-right: 30px;
+}
+.clients-item:last-child{
+    margin: 0;
+}
+.clients-link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border:1px solid var(--main-border-color) ;
+    border-radius: 4px;
+}
+.clients-link:hover{
+    border: var(--accent);
+}
+.clients-link:focus{
+    border: var(--accent);
+}
+.clients-icon{
+   fill: var(--main-border-color);
+}
+.clients-icon:hover{
+    fill: var(--accent);
+}
+.clients-icon:focus{
+    fill: var(--accent);
+}
+
 /*footer*/
 
 .footer{
