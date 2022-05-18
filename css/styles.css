@@ -565,7 +565,7 @@ margin-bottom: 0;
     background: var(--accent);
     color: var(--text-color);
     cursor: pointer;
-    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-content{
