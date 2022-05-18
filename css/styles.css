@@ -141,7 +141,7 @@ ul{
 .item-contacts-mail{
     margin-right: 50px;
 }
-.mail-icon{
+.icon-male{
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
@@ -149,7 +149,7 @@ margin-right: 10px;
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
-.mail-icon:hover{
+.icon-male:hover{
 fill: var(--accent);
 }
 .icon-phone:hover{
@@ -356,10 +356,10 @@ margin-right: 30px;
     border-radius: 4px;
 }
 .clients-link:hover{
-    border: var(--accent);
+   border-color: var(--accent);
 }
 .clients-link:focus{
-    border: var(--accent);
+   border-color: var(--accent);
 }
 .clients-icon{
    fill: var(--main-border-color);
