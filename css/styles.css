@@ -141,7 +141,7 @@ ul{
 .item-contacts-mail{
     margin-right: 50px;
 }
-.icon-male{
+.icon-mail{
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
@@ -149,7 +149,7 @@ margin-right: 10px;
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
-.icon-male:hover{
+.icon-mail:hover{
 fill: var(--accent);
 }
 .icon-phone:hover{
@@ -380,8 +380,14 @@ margin-right: 30px;
     padding-bottom: 60px;
     background-color: var(--additional-color);
     border-radius: 0;
+  }
+  .footer-container{
     display: flex;
-    align-items: baseline;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 .logo-footer{
@@ -447,7 +453,7 @@ margin-bottom: 0;
     margin-top: 0;
     justify-content: center;
     display:inline-block;
-    vertical-align: top;
+    vertical-align:bottom;
 }
 
 .join{
