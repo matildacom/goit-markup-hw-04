@@ -380,6 +380,8 @@ margin-right: 30px;
     padding-bottom: 60px;
     background-color: var(--additional-color);
     border-radius: 0;
+    display: flex;
+    align-items: baseline;
   }
   
 .logo-footer{
@@ -450,7 +452,6 @@ margin-bottom: 0;
 
 .join{
     display: inline-block;
-    margin-top: 12px;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
@@ -506,8 +507,8 @@ margin-bottom: 0;
     background:var(--main-background-color);
     color: var(--main-text-color);
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
     background: var(--accent);
     color: var(--text-color);
     cursor: pointer;
