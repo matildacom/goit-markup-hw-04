@@ -145,15 +145,21 @@ ul{
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
-.phone-icon{
+.icon-phone{
 fill: var(--secondary-text-color);
 margin-right: 10px;
 }
 .mail-icon:hover{
 fill: var(--accent);
 }
-.phone-icon:hover{
+.icon-phone:hover{
 fill: var(--accent);
+}
+.icon-phone:focus{
+    fill: var(--accent);
+}
+.mail-icon:focus {
+    fill: var(--accent);
 }
 /*hero styles*/
 .hero {
