@@ -231,7 +231,7 @@ fill: var(--accent);
     color:var(--main-text-color);
     margin-bottom: 10px;
 }
-.features-link{
+.features-box{
     width: 270px;
     height:120px;
     margin-bottom: 30px;
@@ -302,6 +302,7 @@ fill: var(--accent);
         letter-spacing: 0.03em;
         text-align: center;
         color: var(--secondary-text-color);
+        margin-bottom: 16px;
 }
 .team-box{
     padding-top:30px;
@@ -330,7 +331,7 @@ fill: var(--secondary-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
+
 }
 .social-item:not(:last-child){
 margin-right: 10px;
