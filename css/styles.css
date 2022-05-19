@@ -116,7 +116,6 @@ ul{
     padding-top: 32px;
     padding-bottom: 32px;
     align-items:center;
-    display: inline-flex;
 }
 .link-contacts-mail:hover{
     color: var(--accent);
@@ -374,7 +373,6 @@ margin-right: 30px;
 /*footer*/
 
 .footer{
-   
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--additional-color);
@@ -578,7 +576,7 @@ margin-bottom: 0;
     border-bottom: 1px solid var(--secondary-border-color);
     border-right:1px solid var(--secondary-border-color) ;
     border-left:1px solid var(--secondary-border-color) ;}
-    .portfolio-item:hover{
+.portfolio-item:hover{
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.6);
 }
  
