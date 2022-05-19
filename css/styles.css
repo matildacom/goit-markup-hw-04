@@ -115,10 +115,12 @@ ul{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    align-items: center;
-    display: flex;
+    align-items:center;
+    display: inline-flex;
 }
-.link-contacts-mail:hover,
+.link-contacts-mail:hover{
+    color: var(--accent);
+}
 .link-contacts-mail:focus{
     color:var(--accent);
 }
@@ -134,7 +136,9 @@ ul{
     align-items: center;
     display: flex;
 }
-.link-contacts-tel:hover,
+.link-contacts-tel:hover{
+    color: var(--accent);
+}
 .link-contacts-tel:focus{
     color: var(--accent);
 }
@@ -152,15 +156,16 @@ margin-right: 10px;
 .icon-mail:hover{
 fill: var(--accent);
 }
+.icon-mail:focus {
+    fill: var(--accent);
+}
 .icon-phone:hover{
 fill: var(--accent);
 }
 .icon-phone:focus{
     fill: var(--accent);
 }
-.mail-icon:focus {
-    fill: var(--accent);
-}
+
 /*hero styles*/
 .hero {
     background-color: var(--additional-color);
