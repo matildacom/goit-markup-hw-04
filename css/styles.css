@@ -360,20 +360,14 @@ margin-right: 30px;
     height: 92px;
     border:1px solid var(--main-border-color) ;
     border-radius: 4px;
+    fill: var(--main-border-color);
 }
 .clients-link:hover{
    border-color: var(--accent);
+    fill: var(--accent);
 }
 .clients-link:focus{
    border-color: var(--accent);
-}
-.clients-icon{
-   fill: var(--main-border-color);
-}
-.clients-icon:hover{
-    fill: var(--accent);
-}
-.clients-icon:focus{
     fill: var(--accent);
 }
 
@@ -388,6 +382,7 @@ margin-right: 30px;
   }
   .footer-container{
     display: flex;
+    align-items: baseline;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -396,8 +391,7 @@ margin-right: 30px;
   }
   
 .logo-footer{
-    margin:0px 93px 0px 0px;
-    padding: 24px 0px;
+    margin-bottom: 20px ;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -451,8 +445,6 @@ margin-bottom: 0;
 .address-box{
     margin-right: 70px;
     justify-content: center;
-    display: inline-block;
-    align-items: baseline;
 }
 .social-box{
     margin-top: 0;
@@ -462,7 +454,7 @@ margin-bottom: 0;
 }
 
 .join{
-    display: inline-block;
+    
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
