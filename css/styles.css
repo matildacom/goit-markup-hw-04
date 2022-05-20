@@ -558,7 +558,6 @@ margin-bottom: 0;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    text-decoration: none;
 }
 .portfolio-box{
     padding-right: 24px;
