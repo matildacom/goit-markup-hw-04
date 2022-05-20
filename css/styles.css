@@ -115,6 +115,7 @@ ul{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
     align-items:center;
 }
 .link-contacts-mail:hover{
@@ -145,24 +146,12 @@ ul{
     margin-right: 50px;
 }
 .icon-mail{
-fill: var(--secondary-text-color);
+fill: currentColor;
 margin-right: 10px;
 }
 .icon-phone{
-fill: var(--secondary-text-color);
+fill: currentColor;
 margin-right: 10px;
-}
-.icon-mail:hover{
-fill: var(--accent);
-}
-.icon-mail:focus {
-    fill: var(--accent);
-}
-.icon-phone:hover{
-fill: var(--accent);
-}
-.icon-phone:focus{
-    fill: var(--accent);
 }
 
 /*hero styles*/
@@ -173,7 +162,7 @@ fill: var(--accent);
     url(../images/hero\ img.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
